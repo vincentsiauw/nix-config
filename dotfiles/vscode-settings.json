@@ -1,0 +1,104 @@
+{
+    "workbench.colorTheme": "Dark+",
+    "redhat.telemetry.enabled": false,
+    "json.maxItemsComputed": 50000000,
+    "git.confirmSync": false,
+    "editor.inlineSuggest.enabled": true,
+    "github.copilot.enable": {
+        "*": true,
+        "yaml": false,
+        "plaintext": true,
+        "markdown": false
+    },
+    "git.enableSmartCommit": true,
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell"
+        },
+        "Command Prompt": {
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+            "args": [],
+            "icon": "terminal-cmd"
+        },
+        "Git Bash": {
+            "source": "Git Bash"
+        },
+        "Windows PowerShell": {
+            "path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+        }
+    },
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "go.goroot": "/opt/homebrew/opt/go@1.23/libexec",
+    "update.mode": "none",
+    "git.ignoreRebaseWarning": true,
+    "editor.codeActionsOnSave": {
+        
+    },
+    "win-ca.inject": "append",
+    "haskell.manageHLS": "GHCup",
+    "github.copilot.editor.enableAutoCompletions": true,
+    "explorer.confirmDelete": false,
+    "application.shellEnvironmentResolutionTimeout": 30,
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "gitlens.advanced.messages": {
+        "suppressLineUncommittedWarning": true
+    },
+    "github.copilot.preferredAccount": "vincentsiauw",
+    "docker.extension.enableComposeLanguageServer": false,
+    "python.analysis.typeCheckingMode": "off",
+    "[dockercompose]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2,
+        "editor.autoIndent": "advanced",
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "[github-actions-workflow]": {
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "claudeCode.preferredLocation": "panel",
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "gitlens.ai.model": "vscode",
+    "gitlens.ai.vscode.model": "copilot:gpt-4.1",
+    "chat.tools.terminal.autoApprove": {
+        "/^mkdir -p /Users/vincent/code/bravo-partnership-service/specs/001-dps-1245/contracts$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^ls \\.specify/scripts/bash/update-agent-context\\.sh 2>/dev/null && \\.specify/scripts/bash/update-agent-context\\.sh copilot 2>&1$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    },
+    "chat.agent.maxRequests": 250,
+    "git.blame.editorDecoration.enabled": false,
+    "explorer.fileNesting.patterns": {
+        "*.ts": "${capture}.js",
+        "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+        "*.jsx": "${capture}.js",
+        "*.tsx": "${capture}.ts",
+        "tsconfig.json": "tsconfig.*.json",
+        "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb, bun.lock",
+        "Cargo.toml": "Cargo.lock",
+        "*.sqlite": "${capture}.${extname}-*",
+        "*.db": "${capture}.${extname}-*",
+        "*.sqlite3": "${capture}.${extname}-*",
+        "*.db3": "${capture}.${extname}-*",
+        "*.sdb": "${capture}.${extname}-*",
+        "*.s3db": "${capture}.${extname}-*"
+    },
+    "svelte.enable-ts-plugin": true,
+    "claudeCode.selectedModel": "sonnet",
+    "chat.mcp.gallery.enabled": true,
+    "chat.viewSessions.orientation": "stacked"
+}

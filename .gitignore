@@ -1,0 +1,29 @@
+# ─── Secrets — NEVER commit these ────────────────────────────
+# SSH private keys
+*.pem
+id_rsa
+id_rsa*
+id_ed25519
+id_ed25519*
+jk_rsa
+jk_rsa*
+jk_ed25519
+jk_ed25519*
+google_compute_engine
+agent
+
+# Environment files
+.env
+.env.*
+*.secret
+
+# macOS
+.DS_Store
+
+# Nix build outputs
+result
+result-*
+
+# Backup artifacts (use git, not tarballs)
+*.tar.gz
+*.tar.bz2
